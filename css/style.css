@@ -1,0 +1,28 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  font-family: "Raleway";
+  width: 100%;
+  padding: 20px;
+}
+
+#metadata {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+#metadata td {
+  padding: 10px 10px;
+}
+
+#metadata tr:first-child {
+  font-weight: bold;;
+}
