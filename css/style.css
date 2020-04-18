@@ -26,3 +26,56 @@ body, html {
 #metadata tr:first-child {
   font-weight: bold;;
 }
+
+.hide {
+  display: none;
+}
+
+#container.lists, body, html {
+  min-height: 100vh;
+  position: relative;
+}
+
+.lists #title {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.07);
+}
+
+.lists #image {
+  height: 100px;
+  background-size: cover;
+  background-position: center center;
+  margin: 20px 0;
+  background-color: rgba(0,0,0,0.07);
+}
+
+.lists #lists-wrapper {
+  display: flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-content: stretch;
+  align-items: stretch;
+  min-height: 100%;
+  padding: 0px 10px;
+}
+
+.lists #lists-wrapper .list {
+  order: 0;
+  flex: 1 1 auto;
+  align-self: stretch;
+  margin: 0 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.list table {
+  width: 100%;
+}
+
+.list h2 {
+  margin: 0 0 10px 0;
+}
